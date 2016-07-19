@@ -1,0 +1,17 @@
+ <div *ngIf="event">
+
+    <sebm-google-map [latitude]="event.lat" [longitude]="event.lng">
+
+        <sebm-google-map-marker
+                [latitude]="event.lat"
+                [longitude]="event.lng">
+
+            <sebm-google-map-info-window>
+                <strong>InfoWindow content</strong>
+            </sebm-google-map-info-window>
+
+        </sebm-google-map-marker>
+
+    </sebm-google-map>
+</div>
+
