@@ -1,0 +1,30 @@
+<h3>Manage events</h3>
+
+<div style="width:400px; height:400px">
+    <p-schedule [events]="events" [header]="headerConfig" (onEventClick)="handleEventClick($event)" (onDayClick)="handleDayClick($event)" [editable]="true"></p-schedule>
+</div>
+
+
+<p-dialog header="Event Details" [(visible)]="dialogVisible" [responsive]="true" showEffect="fade" [modal]="false">
+    <div class="ui-grid ui-grid-responsive ui-fluid" *ngIf="event">
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-4"><label for="title">Title</label></div>
+            <div class="ui-grid-col-8"><input  pInputText id="title" [(ngModel)]="event.title" /></div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-4"><label for="lat">Latitude</label></div>
+            <div class="ui-grid-col-8"><input pInputNumber type="number" step="0.01" id="lat" [(ngModel)]="event.lat" /></div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-4"><label for="lng">Longitude</label></div>
+            <div class="ui-grid-col-8"><input pInputNumber type="number" step="0.01" id="lng" [(ngModel)]="event.lng" /></div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+            <button type="button" pButton icon="fa-close" (click)="deleteEvent()" label="Delete"></button>
+            <button type="button" pButton icon="fa-check" (click)="saveEvent()" label="Save"></button>
+        </div>
+    </footer>
+</p-dialog>

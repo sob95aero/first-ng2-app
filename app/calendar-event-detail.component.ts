@@ -1,6 +1,6 @@
 import { Component , Input} from '@angular/core';
 import {CalendarEvent} from './calendar-event';
-import { GOOGLE_MAPS_DIRECTIVES, MouseEvent } from 'angular2-google-maps/core';
+import { GOOGLE_MAPS_DIRECTIVES, MouseEvent} from 'angular2-google-maps/core';
 
 
 @Component({
@@ -11,9 +11,7 @@ import { GOOGLE_MAPS_DIRECTIVES, MouseEvent } from 'angular2-google-maps/core';
        height: 300px;
      }
   `],
-directives: [GOOGLE_MAPS_DIRECTIVES]
-
-
+    directives: [GOOGLE_MAPS_DIRECTIVES]
 })
 export class CalendarEventDetailComponent {
     @Input()

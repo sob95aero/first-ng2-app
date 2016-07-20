@@ -1,61 +1,9 @@
 <h1>My First PrimeNG App - {{title}}</h1>
 
-<p><h2>Actions</h2><p>
-
-<div *ngIf="events">
-
-    <div *ngFor="let event of events">
-
-        <h3 (click)="onSelect(event)" >{{event.title}} details!</h3>
-    </div>
-</div>
+<nav>
+    <a [routerLink]="['/dashboard']" routerLinkActive="active">Dashboard</a>
+    <a [routerLink]="['/calendarEvents']" routerLinkActive="active">Events</a>
+</nav>
+<router-outlet></router-outlet>
 
 
-<div style="width:400px; height:400px">
-
-    <p-schedule [events]="events" [header]="headerConfig" (onEventClick)="handleEventClick($event)" (onDayClick)="handleDayClick($event)" [editable]="true"></p-schedule>
-</div>
-
-
-
-<p-dialog header="Event Details" [(visible)]="dialogVisible" [responsive]="true" showEffect="fade" [modal]="false">
-    <div class="ui-grid ui-grid-responsive ui-fluid" *ngIf="event">
-        <div class="ui-grid-row">
-            <div class="ui-grid-col-4"><label for="title">Title</label></div>
-            <div class="ui-grid-col-8"><input  pInputText id="title" [(ngModel)]="event.title" /></div>
-        </div>
-        <div class="ui-grid-row">
-            <div class="ui-grid-col-4"><label for="lat">Latitude</label></div>
-            <div class="ui-grid-col-8"><input pInputNumber id="lat" [(ngModel)]="event.lat" /></div>
-        </div>
-        <div class="ui-grid-row">
-            <div class="ui-grid-col-4"><label for="lng">Longitude</label></div>
-            <div class="ui-grid-col-8"><input pInputNumber id="lng" [(ngModel)]="event.lng" /></div>
-        </div>
-
-        <div *ngIf="event">
-            <sebm-google-map [latitude]="event.lat" [longitude]="event.lng" (mapClick)="mapClicked($event)">
-
-                <sebm-google-map-marker
-                        [latitude]="event.lat"
-                        [longitude]="event.lng">
-
-                    <sebm-google-map-info-window>
-                        <strong>InfoWindow content</strong>
-                    </sebm-google-map-info-window>
-
-                </sebm-google-map-marker>
-
-            </sebm-google-map>
-        </div>
-
-    </div>
-    <footer>
-        <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
-            <button type="button" pButton icon="fa-close" (click)="deleteEvent()" label="Delete"></button>
-            <button type="button" pButton icon="fa-check" (click)="saveEvent()" label="Save"></button>
-        </div>
-    </footer>
-</p-dialog>
-
-<calendar-event-detail [event]="event"></calendar-event-detail>

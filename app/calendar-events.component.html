@@ -1,0 +1,9 @@
+<div *ngIf="events">
+
+    <div *ngFor="let event of events">
+
+        <h3 (click)="onSelect(event)" >{{event.title}} details!</h3>
+    </div>
+</div>
+
+<calendar-event-detail [event]="event"></calendar-event-detail>
