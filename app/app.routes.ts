@@ -1,6 +1,7 @@
 import { provideRouter, RouterConfig }  from '@angular/router';
 import { CalendarEventsComponent } from './calendar-events.component';
 import { DashboardComponent} from './dashboard.component';
+import {InteractiveMapComponent} from './interactive-map.component'
 
 const routes: RouterConfig = [
     {
@@ -15,6 +16,10 @@ const routes: RouterConfig = [
     {
         path: 'dashboard',
         component: DashboardComponent
+    },
+    {
+        path: 'interactiveMap',
+        component: InteractiveMapComponent
     }
 ];
 
