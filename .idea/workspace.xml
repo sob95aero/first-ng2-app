@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8baf4d2a-a344-4ed8-a330-5933bcfcdf03" name="Default" comment="- interactive india map, init">
+    <list default="true" id="8baf4d2a-a344-4ed8-a330-5933bcfcdf03" name="Default" comment="- added svgs for districts">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/interactive-district.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/district.ts" afterPath="$PROJECT_DIR$/app/district.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/interactive-district.component.ts" afterPath="$PROJECT_DIR$/app/interactive-district.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/interactive-map.component.ts" afterPath="$PROJECT_DIR$/app/interactive-map.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mock-maps.ts" afterPath="$PROJECT_DIR$/app/mock-maps.ts" />
     </list>
     <ignored path="new_trustlist.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,34 +40,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interactive-map.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/interactive-map.component.ts">
+      <file leaf-file-name="interactive-district.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/interactive-district.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="73" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.5857909">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
-                <marker date="1478597526185" expanded="true" signature="404:950" placeholder="..." />
-                <marker date="1478597526185" expanded="true" signature="447:939" placeholder="..." />
-                <marker date="1478597526185" expanded="true" signature="461:939" placeholder="..." />
-                <marker date="1478597526185" expanded="true" signature="649:923" placeholder="..." />
-                <marker date="1478597526185" expanded="true" signature="703:903" placeholder="..." />
-                <marker date="1478597526185" expanded="true" signature="751:903" placeholder="..." />
+                <marker date="1478619286965" expanded="true" signature="571:1075" placeholder="..." />
+                <marker date="1478619286965" expanded="true" signature="644:1064" placeholder="..." />
+                <marker date="1478619286965" expanded="true" signature="820:1048" placeholder="..." />
+                <marker date="1478619286965" expanded="true" signature="901:1029" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interactive-district.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/interactive-district.component.ts">
+      <file leaf-file-name="interactive-district.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/interactive-district.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8136729">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-              <folding>
-                <marker date="1478609700260" expanded="true" signature="495:988" placeholder="..." />
-                <marker date="1478609700260" expanded="true" signature="568:977" placeholder="..." />
-                <marker date="1478609700260" expanded="true" signature="744:961" placeholder="..." />
-                <marker date="1478609700260" expanded="true" signature="825:941" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,9 +121,10 @@
         <option value="$PROJECT_DIR$/app/map.service.ts" />
         <option value="$PROJECT_DIR$/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/app/interactive-map.component.js" />
-        <option value="$PROJECT_DIR$/app/interactive-map.component.ts" />
         <option value="$PROJECT_DIR$/app/district.ts" />
         <option value="$PROJECT_DIR$/app/mock-maps.ts" />
+        <option value="$PROJECT_DIR$/app/interactive-map.component.ts" />
+        <option value="$PROJECT_DIR$/app/interactive-district.component.css" />
         <option value="$PROJECT_DIR$/app/interactive-district.component.ts" />
       </list>
     </option>
@@ -218,40 +210,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_trustlist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_trustlist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_trustlist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_trustlist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interactive-map.component.ts" />
-              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -490,7 +450,7 @@
       <workItem from="1477996200684" duration="11338000" />
       <workItem from="1478071897639" duration="14465000" />
       <workItem from="1478532985499" duration="1613000" />
-      <workItem from="1478596882372" duration="5564000" />
+      <workItem from="1478596882372" duration="11468000" />
     </task>
     <task id="LOCAL-00001" summary="- routes implemented">
       <created>1469007627274</created>
@@ -504,11 +464,17 @@
       <option name="project" value="LOCAL" />
       <updated>1478014384207</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- added svgs for districts">
+      <created>1478609805188</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478609805188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109901000" />
+    <option name="totallyTimeSpent" value="115805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,12 +496,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1716418" sideWeight="0.2842377" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1716418" sideWeight="0.25452197" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26565465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24265403" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1716418" sideWeight="0.71576226" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1716418" sideWeight="0.74547803" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28842506" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -565,7 +531,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- routes implemented" />
     <MESSAGE value="- interactive india map, init" />
-    <option name="LAST_COMMIT_MESSAGE" value="- interactive india map, init" />
+    <MESSAGE value="- added svgs for districts" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added svgs for districts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,16 +545,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/app.component.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45314685">
@@ -918,29 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/interactive-map.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="73" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="73" />
-          <folding>
-            <marker date="1478597526185" expanded="true" signature="404:950" placeholder="..." />
-            <marker date="1478597526185" expanded="true" signature="447:939" placeholder="..." />
-            <marker date="1478597526185" expanded="true" signature="461:939" placeholder="..." />
-            <marker date="1478597526185" expanded="true" signature="649:923" placeholder="..." />
-            <marker date="1478597526185" expanded="true" signature="703:903" placeholder="..." />
-            <marker date="1478597526185" expanded="true" signature="751:903" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/map.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/india.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34182304">
@@ -965,15 +899,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/interactive-map.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6152815">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <marker date="1478611187399" expanded="true" signature="404:950" placeholder="..." />
+            <marker date="1478611187399" expanded="true" signature="447:939" placeholder="..." />
+            <marker date="1478611187399" expanded="true" signature="461:939" placeholder="..." />
+            <marker date="1478611187399" expanded="true" signature="649:923" placeholder="..." />
+            <marker date="1478611187399" expanded="true" signature="703:903" placeholder="..." />
+            <marker date="1478611187399" expanded="true" signature="751:903" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/map.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/interactive-district.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/interactive-district.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8136729">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.5857909">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1478609700260" expanded="true" signature="495:988" placeholder="..." />
-            <marker date="1478609700260" expanded="true" signature="568:977" placeholder="..." />
-            <marker date="1478609700260" expanded="true" signature="744:961" placeholder="..." />
-            <marker date="1478609700260" expanded="true" signature="825:941" placeholder="..." />
+            <marker date="1478619286965" expanded="true" signature="571:1075" placeholder="..." />
+            <marker date="1478619286965" expanded="true" signature="644:1064" placeholder="..." />
+            <marker date="1478619286965" expanded="true" signature="820:1048" placeholder="..." />
+            <marker date="1478619286965" expanded="true" signature="901:1029" placeholder="..." />
           </folding>
         </state>
       </provider>

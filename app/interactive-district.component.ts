@@ -7,6 +7,9 @@ import {MapService} from './map.service';
 @Component({
     selector: 'interactiveMap',
     template: `
+
+    <link rel="stylesheet" href="app/interactive-district.component.css">
+
     <h3 *ngIf="district && !selectedPath">Selected subdistrict for {{district.title}}:</h3>
     <h3 *ngIf="selectedPath">Selected subdistrict for {{district.title}}: {{selectedPath.title}}</h3>
     <div *ngIf="district">
@@ -16,26 +19,26 @@ import {MapService} from './map.service';
           <svg:g [attr.title]="district.title" [attr.transform]="district.transform" >
                <svg:path *ngFor="let path of district.paths" [attr.d]="path.d"
                         [attr.title]="path.title"
-                        (mouseover)="mouseOver(path)" ></svg:path>
-
+                        (mouseover)="mouseOver(path)" class="path"></svg:path>
           </svg:g>
 
         </svg>
     </div>
     `,
-    providers:[MapService]
+    providers: [MapService]
 
 })
 export class InteractiveDistrictComponent implements OnInit {
 
-    district: District;
-    selectedPath: Path;
+    district:District;
+    selectedPath:Path;
 
-    constructor(private route: ActivatedRoute, private mapService: MapService) {}
+    constructor(private route:ActivatedRoute, private mapService:MapService) {
+    }
 
 
-    ngOnInit(): void {
-        this.route.params.forEach((params: Params) => {
+    ngOnInit():void {
+        this.route.params.forEach((params:Params) => {
             let title = params['title'];
             this.mapService.getDistrict(title)
                 .then(district => this.district = district);
