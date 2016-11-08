@@ -13,7 +13,7 @@ import {MapService} from './map.service';
 
     <div *ngIf="map">
         <svg [attr.viewBox]="map.viewBox"
-             preserveAspectRatio="xMidYMid meet" xmlns:svg="http://www.w3.org/1999/html">
+             preserveAspectRatio="xMidYMid meet" width="800" height="600" xmlns:svg="http://www.w3.org/1999/html">
 
           <svg:g *ngFor="let district of map.districts" [attr.title]="district.title" >
 
