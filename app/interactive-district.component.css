@@ -1,3 +1,11 @@
 .path:hover {
     fill: #ff0000;
 }
+
+.path-selected {
+    fill: #00FFFF
+}
+
+.path-selected:hover {
+    fill: #ff0000;
+}
