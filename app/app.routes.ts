@@ -7,7 +7,7 @@ import {InteractiveDistrictComponent} from './interactive-district.component'
 
 const routes: RouterConfig = [
     {
-        path: '/',
+        path: '',
         redirectTo: '/dashboard ',
         terminal: true
     },
